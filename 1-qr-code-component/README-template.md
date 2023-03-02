@@ -25,19 +25,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
 
 ### Continued development
 
 I would love to adapt this and use it for my portfolio website. Maybe have a little popup that gives a QR code linking to my CV.
-
-### Useful resources
-
-- [Tailwind CSS](https://tailwindcss.com/) - I used Tailwind for the styling.
 
 ## Author
 
