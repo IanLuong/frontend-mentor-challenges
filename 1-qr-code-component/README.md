@@ -38,4 +38,4 @@ I would love to adapt this and use it for my portfolio website. Maybe have a lit
 ## Author
 
 - Website - [Ian Luong](https://ianluong.github.io)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/IanLuong)
+- Frontend Mentor - [@IanLuong](https://www.frontendmentor.io/profile/IanLuong)
