@@ -7,7 +7,7 @@ const text = "Scan the QR code to visit Frontend Mentor and take your coding ski
 
 function App() {
   return (
-    <div className="bg-blue-300 w-screen h-screen">
+    <div className="bg-blue-100 w-screen h-screen flex items-center">
       <QRCard path={imagePath} title={title} text={text} />
     </div>
   )
