@@ -18,12 +18,12 @@ const ResultsSummary = ({data}) => {
 
       <div className="m-8">
         <div className="summary text-xl flex flex-col gap-4 mb-8">
-          <h3 className="mb-2">Summary</h3>
+          <h3 className="mb-2 font-bold text-darkGrayBlue">Summary</h3>
           {data.map(entry => (
             <CategoryResult key={entry.id} entry={entry}/>)
           )}
         </div>
-      <button className="text-white text-lg bg-darkGrayBlue w-full p-4 rounded-full">Continue</button>
+      <button className="text-white text-lg bg-darkGrayBlue hover:bg-gradient-to-b hover:from-lightSlateBlue hover:to-lightRoyalBlue w-full p-4 mb-2 rounded-full">Continue</button>
       </div>
 
 
