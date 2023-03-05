@@ -1,10 +1,11 @@
 import ResultsSummary from "./components/ResultsSummary"
+import data from './data.json'
 
 const App = () => {
 
   return (
     <div className="App">
-      <ResultsSummary />
+      <ResultsSummary data={data}/>
     </div>
   )
 }
