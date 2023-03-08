@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-[Live Site URL](https://product-card-challenge.vercel.app/)
+[Live Site URL](https://product-card-challenge-woad.vercel.app/)
 
 ## My process
 
