@@ -7,7 +7,7 @@ const ProductCard = ({item}) => {
     <div className="m-10 rounded-xl overflow-hidden font-fraunces bg-white shadow-sm md:flex md:w-[768px]">
       <picture className="md:w-1/2">
         <source media="(min-width: 768px)" srcSet={desktopImage} />
-        <img src={mobileImage} alt={title} />
+        <img src={mobileImage} alt={title} className='h-full' />
       </picture>
       <div className="p-5 md:p-10 flex flex-col gap-2 md:gap-7 md:w-1/2 md:justify-center">
         <h2 className="text-darkGrayishBlue text-xs md:text-base font-montserrot">{allCapsCategory}</h2>
