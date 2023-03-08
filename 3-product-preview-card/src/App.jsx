@@ -1,7 +1,8 @@
 import ProductCard from "./components/ProductCard"
 
 const item = {
-  image: './image-product-mobile.jpg',
+  desktopImage: './image-product-desktop.jpg',
+  mobileImage: './image-product-mobile.jpg',
   category: 'perfume',
   title: 'Gabrielle Essence Eau De Parfum',
   description: 'A floral, soral and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.',
@@ -12,7 +13,7 @@ const item = {
 function App() {
 
   return (
-    <div className="App w-screen h-screen flex items-center justify-center bg-yellow-50">
+    <div className="App w-screen h-screen flex items-center justify-center bg-cream">
       <ProductCard item={item}/>
     </div>
   )
