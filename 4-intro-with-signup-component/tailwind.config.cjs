@@ -8,11 +8,11 @@ module.exports = {
       },
       colors: {
         //Primary
-        red: 'hsl(0, 100%, 74%) ',
-        green: 'hsl(154, 59%, 51%)',
+        customRed: 'hsl(0, 100%, 74%) ',
+        customGreen: 'hsl(154, 59%, 51%)',
 
         //Accent
-        blue: 'hsl(248, 32%, 49%)',
+        customBlue: 'hsl(248, 32%, 49%)',
 
         //Neutral
         darkBlue: 'hsl(249, 10%, 26%)',
