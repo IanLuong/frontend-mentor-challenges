@@ -10,7 +10,7 @@ module.exports = {
         //Primary
         customRed: 'hsl(0, 100%, 74%) ',
         customGreen: 'hsl(154, 59%, 51%)',
-
+        darkerGreen: 'hsl(154, 59%, 40%)',
         //Accent
         customBlue: 'hsl(248, 32%, 49%)',
 
