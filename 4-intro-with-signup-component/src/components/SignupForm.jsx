@@ -1,6 +1,6 @@
 import {useState} from "react"
 
-const isValidEmail = (email) => email.match(/\w+@\w+(.\w+)+/)
+const isValidEmail = (email) => email.match(/[\w|\d]+@\w+\.\w+\.\w+/)
 
 const SignupForm = () => {
 
