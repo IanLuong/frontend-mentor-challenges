@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://frontend-mentor-news-hompage.vercel.app/)
+- [Live Site URL](https://ianluong-news-hompage.netlify.app//)
 
 ## My process
 

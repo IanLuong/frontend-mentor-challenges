@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-[Live Site URL](https://product-card-challenge-woad.vercel.app/)
+[Live Site URL](https://ianluong-product-preview-card.netlify.app/)
 
 ## My process
 

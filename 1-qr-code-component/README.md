@@ -20,6 +20,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](./screenshot.png)
 
+### Links
+
+[Live Site URL](https://ianluong-qr-code-component.netlify.app/)
+
 ## My process
 
 ### Built with

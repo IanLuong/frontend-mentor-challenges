@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-[Live Site URL](https://results-summary-challenge.vercel.app/)
+[Live Site URL](https://ianluong-results-summary-component.netlify.app/)
 
 ## My process
 
