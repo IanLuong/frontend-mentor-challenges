@@ -7,7 +7,7 @@ function App() {
   const [sidebarVisible, setSidebarVisible] = useState(false)
 
   return (
-    <div className="App font-epilogue relative">
+    <div className="min-w-[320px] font-epilogue relative">
       <Sidebar isVisible={sidebarVisible} setIsVisible={setSidebarVisible} />
       <Navbar setSidebarVisible={setSidebarVisible} />
       <Hero />

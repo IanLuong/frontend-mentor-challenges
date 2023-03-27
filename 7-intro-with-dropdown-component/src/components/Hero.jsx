@@ -11,7 +11,7 @@ const Hero = () => {
         <img src={heroImageMob} alt="" />
       </picture>
       <div className="flex flex-col items-center gap-4 my-8">
-        <h1 className="text-4xl font-bold">Make remote work</h1>
+        <h1 className="text-4xl font-bold text-center">Make remote work</h1>
         <p className="text-center text-mediumGray px-3">
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar.

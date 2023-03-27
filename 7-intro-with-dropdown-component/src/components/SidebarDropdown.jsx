@@ -12,7 +12,7 @@ const SidebarDropdown = ({ title, options }) => {
         className="flex items-center gap-4 cursor-pointer"
       >
         <p>{title}</p>
-        <img src={isExpanded ? iconArrowDown : iconArrowUp} />
+        <img src={isExpanded ? iconArrowUp : iconArrowDown} />
       </a>
       {options && (
         <ul className={`${isExpanded ? 'flex' : 'hidden'} flex-col gap-4 my-4`}>
