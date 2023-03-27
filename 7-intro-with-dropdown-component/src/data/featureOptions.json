@@ -1,0 +1,6 @@
+[
+  { "title": "Todo List", "image": "/images/icon-todo.svg" },
+  { "title": "Calendar", "image": "/images/icon-calendar.svg" },
+  { "title": "Reminders", "image": "/images/icon-reminders.svg" },
+  { "title": "Planning", "image": "/images/icon-planning.svg" }
+]

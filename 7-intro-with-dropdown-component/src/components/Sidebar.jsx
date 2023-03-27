@@ -1,5 +1,7 @@
+import SidebarDropdown from './SidebarDropdown'
 import iconMenuClose from '/images/icon-close-menu.svg'
-import iconArrowDown from '/images/icon-arrow-down.svg'
+import featureOptions from '../data/featureOptions.json'
+import companyOptions from '../data/companyOptions.json'
 
 const Sidebar = ({ isVisible, setIsVisible }) => {
   return (
@@ -15,15 +17,9 @@ const Sidebar = ({ isVisible, setIsVisible }) => {
           alt="Close sidebar"
         />
         <nav className="mb-6">
-          <ul className="flex flex-col gap-5">
-            <li className="flex items-center gap-4">
-              <a>Features</a>
-              <img src={iconArrowDown} />
-            </li>
-            <li className="flex items-center gap-4">
-              <a>Company</a>
-              <img src={iconArrowDown} />
-            </li>
+          <ul className="flex flex-col gap-4">
+            <SidebarDropdown title="Features" options={featureOptions} />
+            <SidebarDropdown title="Company" options={companyOptions} />
             <li>
               <a>Careers</a>
             </li>
@@ -33,7 +29,7 @@ const Sidebar = ({ isVisible, setIsVisible }) => {
           </ul>
         </nav>
         <a className="self-center m-2">Login</a>
-        <button className="border border-almostBlack rounded-2xl py-2 w-full">
+        <button className="border border-almostBlack rounded-xl py-2 my-2 w-full">
           Register
         </button>
       </div>
