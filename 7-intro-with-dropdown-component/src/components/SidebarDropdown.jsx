@@ -7,18 +7,18 @@ const SidebarDropdown = ({ title, options }) => {
 
   return (
     <li>
-      <a
+      <span
         onClick={() => setIsExpanded((prev) => !prev)}
-        className="flex items-center gap-4 cursor-pointer"
+        className="flex items-center gap-4 cursor-pointer hover:text-almostBlack"
       >
         <p>{title}</p>
         <img src={isExpanded ? iconArrowUp : iconArrowDown} />
-      </a>
+      </span>
       {options && (
         <ul className={`${isExpanded ? 'flex' : 'hidden'} flex-col gap-4 my-4`}>
           {options.map((option) => (
             <li>
-              <a className="flex items-center gap-4 px-6">
+              <a className="flex items-center gap-4 px-6 cursor-pointer hover:text-almostBlack focus:text-almostBlack">
                 {option.image && (
                   <img className="w-4" src={option.image} alt={option.title} />
                 )}
