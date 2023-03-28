@@ -19,15 +19,15 @@ const NavbarDropdown = ({ title, options }) => {
         <ul
           className={`${
             isExpanded ? 'flex' : 'hidden'
-          } absolute top-8 right-0 flex-col gap-4 p-4 bg-almostWhite rounded-xl shadow-xl`}
+          } absolute top-8 right-0 flex-col gap-2 p-5 bg-almostWhite rounded-xl shadow-xl`}
         >
           {options.map((option) => (
             <li>
-              <a className="flex items-center gap-4 px-3 cursor-pointer hover:text-almostBlack focus:text-almostBlack">
+              <a className="flex items-center gap-4 cursor-pointer whitespace-nowrap hover:text-almostBlack focus:text-almostBlack">
                 {option.image && (
                   <img className="w-4" src={option.image} alt={option.title} />
                 )}
-                <p className="text-sm">{option.title}</p>
+                <p className="text-sm w-22">{option.title}</p>
               </a>
             </li>
           ))}
