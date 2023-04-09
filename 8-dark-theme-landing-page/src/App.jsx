@@ -88,7 +88,7 @@ export default function App() {
             <h4 className="text-white text-xl font-semibold mt-6">
               Stay productive, wherever you are
             </h4>
-            <p className="text-gray-300 text-sm">
+            <p className="text-gray-300">
               Never let location be an issue when accessing your files. Fylo has
               you covered for all of yout file storage needs.
               <br />
@@ -96,9 +96,29 @@ export default function App() {
               Securely share files and folders with friends, family and
               colleagues for live collaboration. No email attachments required.
             </p>
-            <a className="flex items-center gap-2 text-gradientCyan text-xs pb-1 border-b border-gradientCyan w-[40%]">
+            <a className="flex justify-between items-center text-gradientCyan text-sm pb-1 border-b border-gradientCyan w-[45%]">
               See how Fylo works <img src="/icons/icon-arrow.svg" />
             </a>
+          </div>
+        </section>
+
+        <section className="p-4">
+          <div className="p-4 flex flex-col">
+            <img src="/images/bg-quotes.png" />
+            <div className="p-4 bg-">
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div className="flex">
+                <img className="rounded-full" />
+                <div>
+                  <h4>Satish Patel</h4>
+                  <p>Founder & CEO. Huddle</p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
