@@ -4,6 +4,31 @@
 import heroImage from '/images/illustration-intro.png'
 import logo from '/icons/logo.svg'
 import backgroundMobile from '/icons/bg-curvy-mobile.svg'
+import Testimonial from './components/Testimonial'
+
+const testimonies = [
+  {
+    name: 'Satish Patel',
+    title: 'Founder & CEO, Huddle',
+    quote:
+      'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
+    image: '/images/profile-1.jpg',
+  },
+  {
+    name: 'Bruce McKenzie',
+    title: 'Founder & CEO, Huddle',
+    quote:
+      'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
+    image: '/images/profile-2.jpg',
+  },
+  {
+    name: 'Iva Boyd',
+    title: 'Founder & CEO, Huddle',
+    quote:
+      'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
+    image: '/images/profile-3.jpg',
+  },
+]
 
 export default function App() {
   return (
@@ -104,20 +129,11 @@ export default function App() {
 
         <section className="p-4">
           <div className="p-4 flex flex-col">
-            <img src="/images/bg-quotes.png" />
-            <div className="p-4 bg-">
-              <p>
-                Fylo has improved our team productivity by an order of
-                magnitude. Since making the switch our team has become a
-                well-oiled collaboration machine.
-              </p>
-              <div className="flex">
-                <img className="rounded-full" />
-                <div>
-                  <h4>Satish Patel</h4>
-                  <p>Founder & CEO. Huddle</p>
-                </div>
-              </div>
+            <img src="/images/bg-quotes.png" className="self-start w-6" />
+            <div className="flex flex-col gap-6 items-center">
+              {testimonies.map((testimony) => (
+                <Testimonial testimony={testimony} />
+              ))}
             </div>
           </div>
         </section>
