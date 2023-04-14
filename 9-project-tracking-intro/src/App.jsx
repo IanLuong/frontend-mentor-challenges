@@ -1,5 +1,11 @@
+import Header from './components/Header'
+
 function App() {
-  return <div className="bg-pink-500">Boo</div>
+  return (
+    <div className="">
+      <Header />
+    </div>
+  )
 }
 
 export default App
