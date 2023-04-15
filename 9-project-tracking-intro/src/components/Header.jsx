@@ -7,7 +7,7 @@ const Header = () => {
   const [isVisible, setIsVisible] = useState(false)
 
   return (
-    <header className="relative flex w-full items-center justify-between p-6 md:p-16">
+    <header className="relative m-auto flex w-full max-w-screen-2xl items-center justify-between bg-transparent p-6 md:p-16">
       <img src={logo} className="w-6 md:w-8" />
 
       <img
