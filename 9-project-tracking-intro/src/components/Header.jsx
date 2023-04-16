@@ -17,9 +17,9 @@ const Header = () => {
       />
 
       <div
-        className={`absolute z-10 w-[90%] bg-yellow-300 p-6 ${
+        className={`absolute z-10 mx-6 bg-white p-6 ${
           isVisible ? 'flex md:hidden' : 'hidden'
-        } left-0 right-0 top-16  rounded-md shadow-2xl`}
+        } left-0 right-0 top-16 shadow-2xl`}
       >
         <nav className="w-full">
           <ul className="flex w-full flex-col items-center gap-5 font-barlowCondensed text-xl font-bold uppercase">
