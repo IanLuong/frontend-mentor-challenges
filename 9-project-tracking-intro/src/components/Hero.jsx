@@ -2,28 +2,28 @@ import heroImage from '/images/illustration-devices.svg'
 
 const Hero = () => {
   return (
-    <main className="m-auto flex w-full max-w-screen-2xl grow flex-col justify-center overflow-clip md:flex-row">
-      <img src={heroImage} className="mb-16 w-[140%] max-w-none md:order-2" />
-      <div className="flex flex-col justify-center gap-3 p-6">
-        <div className="flex items-center gap-2 font-barlowCondensed uppercase">
-          <div className="self-center rounded-xl bg-veryDarkBlue px-2 text-sm font-bold text-lightGrayishBlue md:px-3 md:text-lg">
+    <main className=" m-auto flex flex-col md:flex-row gap-16 overflow-x-clip p-8 font-barlowCondensed max-w-screen-xl">
+      <img src={heroImage} className="w-[150%] max-w-7xl sm:order-2" />
+      <div className="flex flex-col gap-4">
+        <div className="flex text-lg gap-4 tracking-wider uppercase items-center">
+          <div className="rounded-2xl px-2 py-1 bg-veryDarkBlue font-bold text-lightGrayishBlue">
             New
           </div>
-          <div className="text-sm tracking-widest text-darkGrayishBlue md:text-lg">
+          <div className="text-grayishBlue tracking-[0.2em]">
             Monograph Dashboard
           </div>
         </div>
-        <h1 className="font-barlowCondensed text-4xl font-bold uppercase text-veryDarkBlue">
+        <h1 className="font-bold text-veryDarkBlue text-[2.5rem] leading-10 uppercase">
           Powerful Insights Into Your Team
         </h1>
-        <p className="font-barlow text-darkGrayishBlue">
+        <p className="text-darkGrayishBlue font-barlow text-[1.2rem]">
           Project planning and time tracking for agile teams
         </p>
-        <div className="flex w-full items-center gap-4 font-barlowCondensed">
-          <button className="cursor-pointer rounded-md bg-red-500 px-5 py-2 text-sm font-bold uppercase tracking-wider text-lightGrayishBlue hover:bg-red-300">
+        <div className="flex gap-6 items-center uppercase">
+          <button className="rounded-md bg-red-500 uppercase px-5 py-2 font-bold text-lightGrayishBlue">
             Schedule a Demo
           </button>
-          <span className="uppercase tracking-wider text-darkGrayishBlue">
+          <span className=" text-grayishBlue tracking-widest">
             To See a Preview
           </span>
         </div>

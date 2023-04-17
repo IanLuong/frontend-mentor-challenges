@@ -7,55 +7,39 @@ const Header = () => {
   const [isVisible, setIsVisible] = useState(false)
 
   return (
-    <header className="relative m-auto flex w-full max-w-screen-2xl items-center justify-between bg-transparent p-6 md:p-16">
-      <img src={logo} className="w-6 md:w-8" />
+    <header className="m-auto w-full max-w-screen-xl font-barlowCondensed font-bold uppercase text-veryDarkBlue tracking-wider relative flex p-8 justify-between items-center">
+      <img src={logo} className="w-6" />
 
       <img
         onClick={() => setIsVisible((prev) => !prev)}
         src={isVisible ? iconClose : iconOpen}
-        className="h-6 w-6 cursor-pointer md:hidden"
+        className="w-5 h-5 sm:hidden"
       />
 
       <div
-        className={`absolute z-10 mx-6 bg-white p-6 ${
-          isVisible ? 'flex md:hidden' : 'hidden'
-        } left-0 right-0 top-16 shadow-2xl`}
+        className={`${
+          isVisible ? 'sm:hidden block' : 'hidden'
+        } absolute left-0 right-0 top-16 m-4 z-10 bg-white shadow-2xl`}
       >
-        <nav className="w-full">
-          <ul className="flex w-full flex-col items-center gap-5 font-barlowCondensed text-xl font-bold uppercase">
-            <li className="cursor-pointer text-veryDarkBlue transition duration-300 hover:underline">
-              Product
-            </li>
-            <li className="cursor-pointer text-veryDarkBlue transition duration-300 hover:underline">
-              Features
-            </li>
-            <li className=" cursor-pointer text-veryDarkBlue transition duration-300 hover:underline">
-              Pricing
-            </li>
-            <hr className="w-full border border-grayishBlue" />
-            <li className="cursor-pointer text-grayishBlue transition duration-300 hover:underline">
-              Login
-            </li>
+        <nav className="m-auto w-full p-4 text-xl">
+          <ul className="m-auto flex flex-col items-center gap-4">
+            <li>Product</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <hr className="w-full" />
+            <li className="text-grayishBlue">Login</li>
           </ul>
         </nav>
       </div>
 
-      <div className="hidden md:block">
+      <div className="hidden sm:block">
         <nav>
-          <ul className="flex items-center gap-8 font-barlowCondensed text-xl font-bold uppercase">
-            <li className="cursor-pointer text-veryDarkBlue transition duration-300 hover:underline">
-              Product
-            </li>
-            <li className="cursor-pointer text-veryDarkBlue transition duration-300 hover:underline">
-              Features
-            </li>
-            <li className=" cursor-pointer text-veryDarkBlue transition duration-300 hover:underline">
-              Pricing
-            </li>
-            <div className="text-grayishBlue">·</div>
-            <li className="cursor-pointer text-grayishBlue transition duration-300 hover:underline">
-              Login
-            </li>
+          <ul className="gap-7 flex items-center">
+            <li>Product</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <div className="text-grayishBlue text-3xl">·</div>
+            <li className="text-grayishBlue">Login</li>
           </ul>
         </nav>
       </div>
