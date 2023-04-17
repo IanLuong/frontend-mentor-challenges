@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 
 function App() {
   return (
-    <div className="">
+    <div className="flex flex-col h-screen w-screen">
       <Header />
       <Hero />
     </div>
