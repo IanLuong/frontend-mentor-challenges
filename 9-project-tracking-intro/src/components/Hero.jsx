@@ -2,7 +2,7 @@ import heroImage from '/images/illustration-devices.svg'
 
 const Hero = () => {
   return (
-    <main className="m-auto flex max-w-screen-xl grow flex-col gap-16 overflow-x-clip p-8 font-barlowCondensed sm:flex-row sm:items-center sm:gap-0">
+    <main className="m-auto flex max-w-screen-xl grow flex-col justify-center gap-16 overflow-x-clip p-8 font-barlowCondensed sm:flex-row sm:items-center sm:justify-normal sm:gap-0">
       <img src={heroImage} className="w-[150%] max-w-7xl sm:order-2" />
       <div className="flex flex-col gap-4 sm:min-w-[500px]">
         <div className="flex items-center gap-4 text-lg uppercase tracking-wider">
@@ -20,7 +20,7 @@ const Hero = () => {
           Project planning and time tracking for agile teams
         </p>
         <div className="flex items-center gap-6 uppercase sm:mt-12">
-          <button className="rounded-md bg-red-500 px-5 py-2 font-bold uppercase text-lightGrayishBlue">
+          <button className="cursor-pointer rounded-md bg-red-500 px-5 py-2 font-bold uppercase text-lightGrayishBlue transition hover:bg-red-400">
             Schedule a Demo
           </button>
           <span className=" tracking-widest text-grayishBlue">

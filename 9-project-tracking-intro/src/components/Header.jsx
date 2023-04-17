@@ -23,11 +23,13 @@ const Header = () => {
       >
         <nav className="m-auto w-full p-4 text-xl">
           <ul className="m-auto flex flex-col items-center gap-4">
-            <li>Product</li>
-            <li>Features</li>
-            <li>Pricing</li>
+            <li className="cursor-pointer hover:underline">Product</li>
+            <li className="cursor-pointer hover:underline">Features</li>
+            <li className="cursor-pointer hover:underline">Pricing</li>
             <hr className="w-full" />
-            <li className="text-grayishBlue">Login</li>
+            <li className="cursor-pointer text-grayishBlue hover:underline">
+              Login
+            </li>
           </ul>
         </nav>
       </div>
@@ -35,11 +37,13 @@ const Header = () => {
       <div className="hidden sm:block">
         <nav>
           <ul className="flex items-center gap-7">
-            <li>Product</li>
-            <li>Features</li>
-            <li>Pricing</li>
+            <li className="cursor-pointer hover:underline">Product</li>
+            <li className="cursor-pointer hover:underline">Features</li>
+            <li className="cursor-pointer hover:underline">Pricing</li>
             <div className="text-3xl text-grayishBlue">·</div>
-            <li className="text-grayishBlue">Login</li>
+            <li className="cursor-pointer text-grayishBlue hover:underline">
+              Login
+            </li>
           </ul>
         </nav>
       </div>
