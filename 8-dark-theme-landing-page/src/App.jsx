@@ -5,39 +5,17 @@ import heroImage from '/images/illustration-intro.png'
 import logo from '/icons/logo.svg'
 import backgroundMobile from '/icons/bg-curvy-mobile.svg'
 import Testimonial from './components/Testimonial'
-
-const testimonies = [
-  {
-    name: 'Satish Patel',
-    title: 'Founder & CEO, Huddle',
-    quote:
-      'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-    image: '/images/profile-1.jpg',
-  },
-  {
-    name: 'Bruce McKenzie',
-    title: 'Founder & CEO, Huddle',
-    quote:
-      'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-    image: '/images/profile-2.jpg',
-  },
-  {
-    name: 'Iva Boyd',
-    title: 'Founder & CEO, Huddle',
-    quote:
-      'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-    image: '/images/profile-3.jpg',
-  },
-]
+import testimonials from './data/testimonials.json'
+import FeaturesSection from './components/FeaturesSection'
 
 export default function App() {
   return (
     <div className="font-raleway">
       <header className="flex flex-col bg-accentBackground">
-        <div className="flex justify-between py-8 px-5">
+        <div className="flex justify-between px-5 py-8">
           <img className="w-1/4" src={logo} alt="Fylo" title="Fylo" />
           <nav>
-            <ul className="text-gray-300 text-sm flex gap-4">
+            <ul className="flex gap-4 text-sm text-gray-300">
               <li>Features</li>
               <li>Team</li>
               <li>Sign In</li>
@@ -45,72 +23,29 @@ export default function App() {
           </nav>
         </div>
       </header>
-      <main className="bg-accentBackground">
-        <section className="text-center p-4 flex flex-col items-center gap-5">
+      <main className="flex flex-col items-center justify-center gap-32 bg-mainBackground">
+        <section className="flex flex-col items-center gap-5 p-6 text-center">
           <img className="" src={heroImage} alt="" title="" />
           <div className="relative">
             <img className="absolute bottom-0" src={backgroundMobile} />
           </div>
-          <h1 className="relative text-white text-2xl font-semibold">
+          <h1 className="relative text-2xl font-semibold text-white">
             All your files in one secure location, accessible anywhere.
           </h1>
-          <p className="text-gray-300 text-sm">
+          <p className="text-sm text-gray-300">
             Fylo stores all your most important files in one secure location.
             Access them wherever you need, share and collaborate with friends,
             family and co-workers.
           </p>
-          <button className="bg-gradient-to-r from-gradientCyan to-gradientBlue w-3/4 text-white text-sm font-bold rounded-full py-3">
+          <button className="w-3/4 rounded-full bg-gradient-to-r from-gradientCyan to-gradientBlue py-3 text-sm font-bold text-white">
             Get Started
           </button>
         </section>
-        <section className="p-4 flex flex-col gap-16 mt-24">
-          <div className="flex flex-col items-center text-center">
-            <img src="./icons/icon-access-anywhere.svg" />
-            <h3 className="text-white text-xl font-semibold mt-6">
-              Access your files, anywhere
-            </h3>
-            <p className="mt-2 text-gray-300 text-sm">
-              The ability to use a smartphone, tablet, or computer to accces
-              your account means your files follow you everywhere.
-            </p>
-          </div>
-          <div className="flex flex-col items-center text-center">
-            <img src="./icons/icon-security.svg" />
-            <h3 className="text-white text-xl font-semibold mt-6">
-              Security you can trust
-            </h3>
-            <p className="mt-2 text-gray-300 text-sm">
-              2-factor authentication and user-controlled encryption are just a
-              couple of the security features we allow to help secure your
-              files.
-            </p>
-          </div>
-          <div className="flex flex-col items-center text-center">
-            <img src="./icons/icon-collaboration.svg" />
-            <h3 className="text-white text-xl font-semibold mt-6">
-              Real-time collaboration
-            </h3>
-            <p className="mt-2 text-gray-300 text-sm">
-              Securely share files and folders with friends, family and
-              colleagues for live collaboration. No email attachements required.
-            </p>
-          </div>
-          <div className="flex flex-col items-center text-center">
-            <img src="./icons/icon-any-file.svg" />
-            <h3 className="text-white text-xl font-semibold mt-6">
-              Store any type of file
-            </h3>
-            <p className="mt-2 text-gray-300 text-sm">
-              Whether you're sharing holiday photos or work documents, Fylo has
-              you covered allowing for all file types to be securely stored and
-              shared.
-            </p>
-          </div>
-        </section>
-        <section className="p-4">
+        <FeaturesSection />
+        <section className="p-6">
           <img src="/images/illustration-stay-productive.png" />
           <div className="flex flex-col gap-3">
-            <h4 className="text-white text-xl font-semibold mt-6">
+            <h4 className="mt-6 text-xl font-semibold text-white">
               Stay productive, wherever you are
             </h4>
             <p className="text-gray-300">
@@ -121,17 +56,17 @@ export default function App() {
               Securely share files and folders with friends, family and
               colleagues for live collaboration. No email attachments required.
             </p>
-            <a className="flex justify-between items-center text-gradientCyan text-sm pb-1 border-b border-gradientCyan w-[45%]">
+            <a className="flex w-[45%] items-center justify-between border-b border-gradientCyan pb-1 text-sm text-gradientCyan">
               See how Fylo works <img src="/icons/icon-arrow.svg" />
             </a>
           </div>
         </section>
 
-        <section className="p-4">
-          <div className="p-4 flex flex-col">
-            <img src="/images/bg-quotes.png" className="self-start w-6" />
-            <div className="flex flex-col gap-6 items-center">
-              {testimonies.map((testimony) => (
+        <section className="px-6 pb-32">
+          <div className="flex flex-col p-4">
+            <img src="/images/bg-quotes.png" className="w-6 self-start" />
+            <div className="flex flex-col items-center gap-6">
+              {testimonials.map((testimony) => (
                 <Testimonial testimony={testimony} />
               ))}
             </div>
