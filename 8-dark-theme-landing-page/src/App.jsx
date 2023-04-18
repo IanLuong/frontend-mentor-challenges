@@ -7,6 +7,7 @@ import backgroundMobile from '/icons/bg-curvy-mobile.svg'
 import Testimonial from './components/Testimonial'
 import testimonials from './data/testimonials.json'
 import FeaturesSection from './components/FeaturesSection'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
@@ -62,7 +63,7 @@ export default function App() {
           </div>
         </section>
 
-        <section className="px-6 pb-32">
+        <section className="px-6 pb-64">
           <div className="flex flex-col p-4">
             <img src="/images/bg-quotes.png" className="w-6 self-start" />
             <div className="flex flex-col items-center gap-6">
@@ -73,6 +74,7 @@ export default function App() {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   )
 }
