@@ -16,10 +16,10 @@ const Hero = () => {
         <h1 className="text-[2.5rem] font-bold uppercase leading-10 text-veryDarkBlue sm:text-6xl">
           Powerful Insights Into Your Team
         </h1>
-        <p className="font-barlow text-[1.2rem] text-darkGrayishBlue">
+        <p className="font-barlow text-[1.2rem] text-darkGrayishBlue sm:w-2/3">
           Project planning and time tracking for agile teams
         </p>
-        <div className="flex items-center gap-6 uppercase sm:mt-12">
+        <div className="flex items-center gap-6 uppercase sm:mt-8">
           <button className="cursor-pointer rounded-md bg-red-500 px-5 py-2 font-bold uppercase text-lightGrayishBlue transition hover:bg-red-400">
             Schedule a Demo
           </button>
