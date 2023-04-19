@@ -8,6 +8,7 @@ import Testimonial from './components/Testimonial'
 import testimonials from './data/testimonials.json'
 import FeaturesSection from './components/FeaturesSection'
 import Footer from './components/Footer'
+import SignupCTA from './components/SignupCTA'
 
 export default function App() {
   return (
@@ -24,7 +25,7 @@ export default function App() {
           </nav>
         </div>
       </header>
-      <main className="flex flex-col items-center justify-center gap-32 bg-mainBackground">
+      <main className="relative flex flex-col items-center justify-center gap-32 bg-mainBackground">
         <section className="flex flex-col items-center gap-5 p-6 text-center">
           <img className="" src={heroImage} alt="" title="" />
           <div className="relative">
@@ -63,7 +64,7 @@ export default function App() {
           </div>
         </section>
 
-        <section className="px-6 pb-64">
+        <section className="px-6 pb-[22rem]">
           <div className="flex flex-col p-4">
             <img src="/images/bg-quotes.png" className="w-6 self-start" />
             <div className="flex flex-col items-center gap-6">
@@ -73,6 +74,7 @@ export default function App() {
             </div>
           </div>
         </section>
+        <SignupCTA />
       </main>
       <Footer />
     </div>
