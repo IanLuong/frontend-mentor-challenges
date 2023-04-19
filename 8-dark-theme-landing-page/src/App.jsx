@@ -1,9 +1,7 @@
-// import Header from './components/Header'
-// import Hero from './components/Hero'
-
 import heroImage from '/images/illustration-intro.png'
 import logo from '/icons/logo.svg'
 import backgroundMobile from '/icons/bg-curvy-mobile.svg'
+import backgroundDesktop from '/icons/bg-curvy-desktop.svg'
 import Testimonial from './components/Testimonial'
 import testimonials from './data/testimonials.json'
 import FeaturesSection from './components/FeaturesSection'
@@ -19,35 +17,38 @@ export default function App() {
             <img className="w-20 sm:w-32" src={logo} alt="Fylo" title="Fylo" />
             <nav>
               <ul className="flex gap-4 text-sm text-gray-300 md:gap-12">
-                <li>Features</li>
-                <li>Team</li>
-                <li>Sign In</li>
+                <li className="cursor-pointer hover:text-white hover:underline focus:text-white focus:underline">
+                  Features
+                </li>
+                <li className="cursor-pointer hover:text-white hover:underline focus:text-white focus:underline">
+                  Team
+                </li>
+                <li className="cursor-pointer hover:text-white hover:underline focus:text-white focus:underline">
+                  Sign In
+                </li>
               </ul>
             </nav>
           </div>
         </header>
       </div>
       <main className="relative flex flex-col items-center justify-center gap-32 bg-mainBackground">
-        <section className="flex max-w-2xl flex-col items-center text-center">
-          <img className="p-6 md:p-12" src={heroImage} alt="" title="" />
-          {/* <img
-            className="absolute top-0 z-10 w-full"
-            src={backgroundMobile}
-            alt=""
-            title=""
-          /> */}
-          <div className="flex flex-col items-center gap-5 p-6">
-            <div className="">
-              <h1 className="relative max-w-lg text-2xl font-semibold text-white">
-                All your files in one secure location, accessible anywhere.
-              </h1>
-            </div>
+        <section className="relative m-auto flex max-w-2xl flex-col items-center text-center">
+          <div className="z-10 flex flex-col items-center gap-5 p-6">
+            <img
+              className="z-10 m-auto p-6 md:p-12"
+              src={heroImage}
+              alt=""
+              title=""
+            />
+            <h1 className="relative max-w-lg text-2xl font-semibold text-white">
+              All your files in one secure location, accessible anywhere.
+            </h1>
             <p className="max-w-md text-sm text-gray-300">
               Fylo stores all your most important files in one secure location.
               Access them wherever you need, share and collaborate with friends,
               family and co-workers.
             </p>
-            <button className="w-[245px] rounded-full bg-gradient-to-r from-gradientCyan to-gradientBlue py-3 text-sm font-bold text-white">
+            <button className="w-[245px] rounded-full bg-gradient-to-r from-gradientCyan to-gradientBlue py-3 text-sm font-bold text-white hover:from-gradientCyan hover:to-gradientCyan focus:from-gradientCyan focus:to-gradientCyan">
               Get Started
             </button>
           </div>
