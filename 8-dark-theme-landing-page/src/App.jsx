@@ -13,61 +13,75 @@ import SignupCTA from './components/SignupCTA'
 export default function App() {
   return (
     <div className="font-raleway">
-      <header className="flex flex-col bg-accentBackground">
-        <div className="flex justify-between px-5 py-8">
-          <img className="w-1/4" src={logo} alt="Fylo" title="Fylo" />
-          <nav>
-            <ul className="flex gap-4 text-sm text-gray-300">
-              <li>Features</li>
-              <li>Team</li>
-              <li>Sign In</li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <main className="relative flex flex-col items-center justify-center gap-32 bg-mainBackground">
-        <section className="flex flex-col items-center gap-5 p-6 text-center">
-          <img className="" src={heroImage} alt="" title="" />
-          <div className="relative">
-            <img className="absolute bottom-0" src={backgroundMobile} />
+      <div className="w-full bg-accentBackground">
+        <header className="m-auto flex max-w-screen-xl flex-col bg-accentBackground">
+          <div className="flex justify-between px-5 py-8">
+            <img className="w-20 sm:w-32" src={logo} alt="Fylo" title="Fylo" />
+            <nav>
+              <ul className="flex gap-4 text-sm text-gray-300 md:gap-12">
+                <li>Features</li>
+                <li>Team</li>
+                <li>Sign In</li>
+              </ul>
+            </nav>
           </div>
-          <h1 className="relative text-2xl font-semibold text-white">
-            All your files in one secure location, accessible anywhere.
-          </h1>
-          <p className="text-sm text-gray-300">
-            Fylo stores all your most important files in one secure location.
-            Access them wherever you need, share and collaborate with friends,
-            family and co-workers.
-          </p>
-          <button className="w-3/4 rounded-full bg-gradient-to-r from-gradientCyan to-gradientBlue py-3 text-sm font-bold text-white">
-            Get Started
-          </button>
+        </header>
+      </div>
+      <main className="relative flex flex-col items-center justify-center gap-32 bg-mainBackground">
+        <section className="flex max-w-2xl flex-col items-center text-center">
+          <img className="p-6 md:p-12" src={heroImage} alt="" title="" />
+          {/* <img
+            className="absolute top-0 z-10 w-full"
+            src={backgroundMobile}
+            alt=""
+            title=""
+          /> */}
+          <div className="flex flex-col items-center gap-5 p-6">
+            <div className="">
+              <h1 className="relative max-w-lg text-2xl font-semibold text-white">
+                All your files in one secure location, accessible anywhere.
+              </h1>
+            </div>
+            <p className="max-w-md text-sm text-gray-300">
+              Fylo stores all your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family and co-workers.
+            </p>
+            <button className="w-[245px] rounded-full bg-gradient-to-r from-gradientCyan to-gradientBlue py-3 text-sm font-bold text-white">
+              Get Started
+            </button>
+          </div>
         </section>
         <FeaturesSection />
-        <section className="p-6">
-          <img src="/images/illustration-stay-productive.png" />
+        <section className="m-auto w-full max-w-screen-lg items-center justify-between gap-6 p-6 md:flex">
+          <div className="p-6">
+            <img src="/images/illustration-stay-productive.png" />
+          </div>
           <div className="flex flex-col gap-3">
-            <h4 className="mt-6 text-xl font-semibold text-white">
+            <h4 className="mt-6 max-w-md text-xl font-semibold text-white md:text-4xl">
               Stay productive, wherever you are
             </h4>
             <p className="text-gray-300">
               Never let location be an issue when accessing your files. Fylo has
-              you covered for all of yout file storage needs.
+              you covered for all of your file storage needs.
               <br />
               <br />
               Securely share files and folders with friends, family and
               colleagues for live collaboration. No email attachments required.
             </p>
-            <a className="flex w-[45%] items-center justify-between border-b border-gradientCyan pb-1 text-sm text-gradientCyan">
+            <a className="flex w-[9.5rem] items-center justify-between border-b border-gradientCyan pb-1 text-sm text-gradientCyan">
               See how Fylo works <img src="/icons/icon-arrow.svg" />
             </a>
           </div>
         </section>
 
-        <section className="px-6 pb-[22rem]">
-          <div className="flex flex-col p-4">
-            <img src="/images/bg-quotes.png" className="w-6 self-start" />
-            <div className="flex flex-col items-center gap-6">
+        <section className="max-w-screen-lg px-6 pb-[22rem]">
+          <div className="relative flex flex-col p-4">
+            <img
+              src="/images/bg-quotes.png"
+              className="-left-[-4px] -top-4 w-6 self-start md:absolute md:w-12"
+            />
+            <div className="z-10 flex flex-col items-center gap-6 md:flex-row">
               {testimonials.map((testimony) => (
                 <Testimonial testimony={testimony} />
               ))}
@@ -76,7 +90,9 @@ export default function App() {
         </section>
         <SignupCTA />
       </main>
-      <Footer />
+      <div className="w-full bg-footerBackground">
+        <Footer />
+      </div>
     </div>
   )
 }
