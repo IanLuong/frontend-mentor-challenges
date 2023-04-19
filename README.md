@@ -1,28 +1,25 @@
-
 # Frontend Mentor Challenges
 
-This monorepo contains the challenges that have been completed as part of [FrontendMentor](https://www.frontendmentor.io/challenges). 
+This monorepo contains the challenges that have been completed as part of [FrontendMentor](https://www.frontendmentor.io/challenges).
 
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 [Follow me on FrontendMentor.io](https://www.frontendmentor.io/profile/IanLuong).
 
-
-
-
 ## The Challenges:
 
 You can reach the challenges on Frontend Mentor and my solutions to them below:
 
-|#| Name           | Code     | Demo          |
-|:--| :------------- | :------- | :------------ |
-|1| [*QR Component*](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/1-qr-code-component) | [**HERE**](https://ianluong-qr-code-component.netlify.app/)  |
-|2| [*Results Summary Component*](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/2-results-summary-component) | [**HERE**](https://ianluong-results-summary-component.netlify.app/)  |
-|3| [*Product Preview Card*](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/) | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/3-product-preview-card) | [**HERE**](https://ianluong-product-preview-card.netlify.app/)  |
-|4| [*Intro with Signup Component*](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1/) | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/4-intro-with-signup-component) | [**HERE**](https://ianluong-intro-with-signup-component.netlify.app)  |
-|5| [*Sunnyside Agency*](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef/) | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/5-sunnyside-agency) | [**HERE**](https://ianluong-sunnyside-agency.netlify.app)  |
-|6| [*News Homepage*](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/) | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/6-news-hompage) | [**HERE**](https://ianluong-news-hompage.netlify.app)  |
-|7| [*Intro Dropdown Component*](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/) | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/7-intro-with-dropdown-component) | [**HERE**](https://ianluong-intro-with-dropdown.netlify.app)  |
+| #   | Name                                                                                                                                 | Code                                                                                                         | Demo                                                                 |
+| :-- | :----------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------- |
+| 1   | [_QR Component_](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)                                               | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/1-qr-code-component)             | [**HERE**](https://ianluong-qr-code-component.netlify.app/)          |
+| 2   | [_Results Summary Component_](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)                    | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/2-results-summary-component)     | [**HERE**](https://ianluong-results-summary-component.netlify.app/)  |
+| 3   | [_Product Preview Card_](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/)                        | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/3-product-preview-card)          | [**HERE**](https://ianluong-product-preview-card.netlify.app/)       |
+| 4   | [_Intro with Signup Component_](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1/) | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/4-intro-with-signup-component)   | [**HERE**](https://ianluong-intro-with-signup-component.netlify.app) |
+| 5   | [_Sunnyside Agency_](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef/)                              | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/5-sunnyside-agency)              | [**HERE**](https://ianluong-sunnyside-agency.netlify.app)            |
+| 6   | [_News Homepage_](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/)                                                | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/6-news-hompage)                  | [**HERE**](https://ianluong-news-hompage.netlify.app)                |
+| 7   | [_Intro Dropdown Component_](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/)             | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/7-intro-with-dropdown-component) | [**HERE**](https://ianluong-intro-with-dropdown.netlify.app)         |
+| 8   | [_Dark Theme Landing Page_](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd/)         | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/8-dark-theme-landing-page)       | [**HERE**](https://ianluong-dark-theme-landing-page.netlify.app/)    |
 
 ## The Tools I Used:
 
