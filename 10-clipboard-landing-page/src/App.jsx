@@ -1,5 +1,11 @@
+import Footer from './components/Footer'
+
 const App = () => {
-  return <h1 className="">App</h1>
+  return (
+    <div className="font-baiJamjuree">
+      <Footer />
+    </div>
+  )
 }
 
 export default App
