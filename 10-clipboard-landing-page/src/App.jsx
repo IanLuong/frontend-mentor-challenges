@@ -26,7 +26,7 @@ const App = () => {
               <h2 className="text-3xl font-bold text-darkGrayishBlue">
                 Access Clipboard anywhere
               </h2>
-              <p className="mx-auto mt-4 max-w-lg text-[1.01rem] text-grayishBlue">
+              <p className="mx-auto mt-4 max-w-[40rem] text-[1.01rem] text-grayishBlue">
                 Whether you're on the go, or at your computer, you can access
                 all your Clipboard snippets in a few simple clicks.
               </p>
@@ -53,7 +53,7 @@ const App = () => {
                 <h3 className="mt-8 text-3xl font-bold text-darkGrayishBlue">
                   Create blacklists
                 </h3>
-                <p className="mt-4 text-grayishBlue">
+                <p className="mt-4 text-grayishBlue md:leading-loose">
                   Ensure sensitive information never makes its way to your
                   clipboard by excluding certain sources.
                 </p>
@@ -65,7 +65,7 @@ const App = () => {
                 <h3 className="mt-8 text-3xl font-bold text-darkGrayishBlue">
                   Plain text snippets
                 </h3>
-                <p className="mt-4 text-grayishBlue">
+                <p className="mt-4 text-grayishBlue md:leading-loose">
                   Remove unwanted formatting from copied text for a consistent
                   look.
                 </p>
@@ -77,7 +77,7 @@ const App = () => {
                 <h3 className="mt-8 text-3xl font-bold text-darkGrayishBlue">
                   Sneak preview
                 </h3>
-                <p className="mt-4 text-grayishBlue">
+                <p className="mt-4 text-grayishBlue md:leading-loose">
                   Quick preview of all snippets on your Clipboard for easy
                   access.
                 </p>
@@ -111,7 +111,7 @@ const App = () => {
                 <h2 className="text-3xl font-bold text-darkGrayishBlue">
                   Clipboard for iOS and Mac OS
                 </h2>
-                <p className="mt-4 max-w-lg text-[1.01rem] text-grayishBlue">
+                <p className="mt-4 max-w-[40rem] text-[1.01rem] text-grayishBlue ">
                   Available for free on the App Store. Download for Mac or iOS,
                   sync with iCloud and you're ready to start adding to your
                   clipboard.

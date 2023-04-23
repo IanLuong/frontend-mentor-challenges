@@ -8,10 +8,10 @@ const Hero = () => {
           <img src={logo} className="w-28" />
         </div>
         <div>
-          <h1 className="text-3xl font-bold text-darkGrayishBlue">
+          <h1 className="text-3xl font-bold text-darkGrayishBlue md:text-[2.75rem]">
             A history of everything you copy
           </h1>
-          <p className="mt-4 max-w-lg text-[1.01rem] text-grayishBlue">
+          <p className="m-auto mt-4 max-w-2xl text-[1.01rem] text-grayishBlue md:text-lg">
             Clipboard allows you to track and organize everything you copy.
             Instantly access your clipboard on all your devices.
           </p>

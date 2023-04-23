@@ -12,11 +12,11 @@ const Footer = () => {
             <img src={clipboardLogo} className="w-11" />
           </div>
           <nav className="grid gap-3 text-darkGrayishBlue md:grid-flow-col md:grid-cols-3 md:grid-rows-2">
-            <a className="md:mx-4">FAQs</a>
-            <a className="md:mx-4">Contact Us</a>
-            <a className="md:mx-4">Privacy Policy</a>
-            <a className="md:mx-4">Press Kit</a>
-            <a className="md:mx-4">Install Guide</a>
+            <a className="md:mx-3 lg:mx-12">FAQs</a>
+            <a className="md:mx-3 lg:mx-12">Contact Us</a>
+            <a className="md:mx-3 lg:mx-12">Privacy Policy</a>
+            <a className="md:mx-3 lg:mx-12">Press Kit</a>
+            <a className="md:mx-3 lg:mx-12">Install Guide</a>
           </nav>
         </div>
         <nav className="flex justify-center gap-12 md:gap-6">
