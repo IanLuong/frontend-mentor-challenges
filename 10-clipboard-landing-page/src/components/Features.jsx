@@ -14,9 +14,12 @@ const Features = () => {
         </p>
       </div>
 
-      <div className="flex flex-col items-center justify-center gap-16 md:flex-row">
-        <div>
-          <img src={computerImage} />
+      <div className="m-auto flex flex-col items-center justify-center gap-16 md:flex-row md:gap-2">
+        <div className="">
+          <img
+            src={computerImage}
+            className="-left-32 top-0 sm:w-[460px] md:relative md:w-[920px]"
+          />
         </div>
         <div className="flex flex-col gap-12 text-center md:text-left">
           <div>
