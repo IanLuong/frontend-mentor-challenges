@@ -118,10 +118,10 @@ const App = () => {
                 </p>
               </div>
               <div className="flex w-full max-w-md flex-col items-center gap-4 font-bold text-white md:flex-row">
-                <button className="w-full rounded-3xl bg-strongCyan px-3 py-3 shadow-xl">
+                <button className="w-full rounded-3xl bg-strongCyan px-3 py-3 shadow-xl transition-opacity duration-200 hover:opacity-80 focus:opacity-80">
                   Download for iOS
                 </button>
-                <button className="w-full rounded-3xl bg-lightBlue px-3 py-3 shadow-xl">
+                <button className="w-full rounded-3xl bg-lightBlue px-3 py-3 shadow-xl transition-opacity duration-200 hover:opacity-80 focus:opacity-80">
                   Download for Mac
                 </button>
               </div>
