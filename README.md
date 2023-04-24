@@ -21,6 +21,7 @@ You can reach the challenges on Frontend Mentor and my solutions to them below:
 | 7   | [_Intro Dropdown Component_](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/)             | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/7-intro-with-dropdown-component) | [**HERE**](https://ianluong-intro-with-dropdown.netlify.app)         |
 | 8   | [_Dark Theme Landing Page_](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd/)         | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/8-dark-theme-landing-page)       | [**HERE**](https://ianluong-dark-theme-landing-page.netlify.app/)    |
 | 9   | [_Project Tracking Intro Page_](https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e)  | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/9-project-tracking-intro)        | [**HERE**](https://ianluong-project-tracking-intro.netlify.app/)     |
+| 10  | [_Clipboard Landing Page_](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)                 | [**Link**](https://github.com/IanLuong/frontend-mentor-challenges/tree/main/10-clipboard-landing-page)       | [**HERE**](https://ianluong-clipboard-landing-page.netlify.app/)     |
 
 ## The Tools I Used:
 
