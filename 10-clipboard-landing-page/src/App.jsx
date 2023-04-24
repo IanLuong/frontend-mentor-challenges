@@ -16,7 +16,7 @@ import vectorGraphicsIcon from '/images/logo-vector-graphics.png'
 const App = () => {
   return (
     <div className="font-baiJamjuree">
-      <main className="w-full bg-white bg-[url('images/bg-header-mobile.png')] bg-contain bg-no-repeat md:bg-[url('images/bg-header-desktop.png')]">
+      <main className="w-full bg-white bg-mobile bg-contain bg-no-repeat md:bg-desktop">
         <div className="m-auto max-w-screen-xl">
           <Hero />
           <Features />
