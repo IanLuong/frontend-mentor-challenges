@@ -13,8 +13,8 @@ export default {
         baiJamjuree: ['Bai Jamjuree', 'sans-serif'],
       },
       backgroundImage: {
-        mobile: "url('/images/bg-header-mobile.png')",
-        desktop: "url('/images/bg-header-desktop.png')",
+        mobile: "url('./images/bg-header-mobile.png')",
+        desktop: "url('./images/bg-header-desktop.png')",
       },
     },
   },
