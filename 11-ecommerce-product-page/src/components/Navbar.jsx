@@ -21,7 +21,7 @@ const Navbar = () => {
           </ul>
         </nav>
       </div>
-      <div className="flex items-center gap-5">
+      <div className="flex items-center gap-5 md:gap-8">
         <img className="w-5 h-5" src={iconCart} />
         <img className="w-7 h-7 md:w-12 md:h-12" src={avatar} />
       </div>
